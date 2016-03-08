@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA0224E1C8E6BEA00560778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA0224D1C8E6BEA00560778 /* AppDelegate.swift */; };
+		FCA022501C8E6BEA00560778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA0224F1C8E6BEA00560778 /* ViewController.swift */; };
+		FCA022531C8E6BEA00560778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA022511C8E6BEA00560778 /* Main.storyboard */; };
+		FCA022551C8E6BEA00560778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA022541C8E6BEA00560778 /* Assets.xcassets */; };
+		FCA022581C8E6BEA00560778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA022561C8E6BEA00560778 /* LaunchScreen.storyboard */; };
+		FCA022631C8E6BEA00560778 /* Lightbox_Transition_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022621C8E6BEA00560778 /* Lightbox_Transition_DemoTests.swift */; };
+		FCA0226E1C8E6BEB00560778 /* Lightbox_Transition_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA0226D1C8E6BEB00560778 /* Lightbox_Transition_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA0225F1C8E6BEA00560778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA022421C8E6BEA00560778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA022491C8E6BEA00560778;
+			remoteInfo = "Lightbox Transition Demo";
+		};
+		FCA0226A1C8E6BEA00560778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA022421C8E6BEA00560778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA022491C8E6BEA00560778;
+			remoteInfo = "Lightbox Transition Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCA0224A1C8E6BEA00560778 /* Lightbox Transition Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lightbox Transition Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA0224D1C8E6BEA00560778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA0224F1C8E6BEA00560778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA022521C8E6BEA00560778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA022541C8E6BEA00560778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA022571C8E6BEA00560778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA022591C8E6BEA00560778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA0225E1C8E6BEA00560778 /* Lightbox Transition DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lightbox Transition DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA022621C8E6BEA00560778 /* Lightbox_Transition_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightbox_Transition_DemoTests.swift; sourceTree = "<group>"; };
+		FCA022641C8E6BEA00560778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA022691C8E6BEA00560778 /* Lightbox Transition DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lightbox Transition DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA0226D1C8E6BEB00560778 /* Lightbox_Transition_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightbox_Transition_DemoUITests.swift; sourceTree = "<group>"; };
+		FCA0226F1C8E6BEB00560778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA022471C8E6BEA00560778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0225B1C8E6BEA00560778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA022661C8E6BEA00560778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA022411C8E6BEA00560778 = {
+			isa = PBXGroup;
+			children = (
+				FCA0224C1C8E6BEA00560778 /* Lightbox Transition Demo */,
+				FCA022611C8E6BEA00560778 /* Lightbox Transition DemoTests */,
+				FCA0226C1C8E6BEB00560778 /* Lightbox Transition DemoUITests */,
+				FCA0224B1C8E6BEA00560778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA0224B1C8E6BEA00560778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0224A1C8E6BEA00560778 /* Lightbox Transition Demo.app */,
+				FCA0225E1C8E6BEA00560778 /* Lightbox Transition DemoTests.xctest */,
+				FCA022691C8E6BEA00560778 /* Lightbox Transition DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA0224C1C8E6BEA00560778 /* Lightbox Transition Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0224D1C8E6BEA00560778 /* AppDelegate.swift */,
+				FCA0224F1C8E6BEA00560778 /* ViewController.swift */,
+				FCA022511C8E6BEA00560778 /* Main.storyboard */,
+				FCA022541C8E6BEA00560778 /* Assets.xcassets */,
+				FCA022561C8E6BEA00560778 /* LaunchScreen.storyboard */,
+				FCA022591C8E6BEA00560778 /* Info.plist */,
+			);
+			path = "Lightbox Transition Demo";
+			sourceTree = "<group>";
+		};
+		FCA022611C8E6BEA00560778 /* Lightbox Transition DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA022621C8E6BEA00560778 /* Lightbox_Transition_DemoTests.swift */,
+				FCA022641C8E6BEA00560778 /* Info.plist */,
+			);
+			path = "Lightbox Transition DemoTests";
+			sourceTree = "<group>";
+		};
+		FCA0226C1C8E6BEB00560778 /* Lightbox Transition DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0226D1C8E6BEB00560778 /* Lightbox_Transition_DemoUITests.swift */,
+				FCA0226F1C8E6BEB00560778 /* Info.plist */,
+			);
+			path = "Lightbox Transition DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA022491C8E6BEA00560778 /* Lightbox Transition Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA022721C8E6BEB00560778 /* Build configuration list for PBXNativeTarget "Lightbox Transition Demo" */;
+			buildPhases = (
+				FCA022461C8E6BEA00560778 /* Sources */,
+				FCA022471C8E6BEA00560778 /* Frameworks */,
+				FCA022481C8E6BEA00560778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lightbox Transition Demo";
+			productName = "Lightbox Transition Demo";
+			productReference = FCA0224A1C8E6BEA00560778 /* Lightbox Transition Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA0225D1C8E6BEA00560778 /* Lightbox Transition DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA022751C8E6BEB00560778 /* Build configuration list for PBXNativeTarget "Lightbox Transition DemoTests" */;
+			buildPhases = (
+				FCA0225A1C8E6BEA00560778 /* Sources */,
+				FCA0225B1C8E6BEA00560778 /* Frameworks */,
+				FCA0225C1C8E6BEA00560778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA022601C8E6BEA00560778 /* PBXTargetDependency */,
+			);
+			name = "Lightbox Transition DemoTests";
+			productName = "Lightbox Transition DemoTests";
+			productReference = FCA0225E1C8E6BEA00560778 /* Lightbox Transition DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCA022681C8E6BEA00560778 /* Lightbox Transition DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA022781C8E6BEB00560778 /* Build configuration list for PBXNativeTarget "Lightbox Transition DemoUITests" */;
+			buildPhases = (
+				FCA022651C8E6BEA00560778 /* Sources */,
+				FCA022661C8E6BEA00560778 /* Frameworks */,
+				FCA022671C8E6BEA00560778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA0226B1C8E6BEA00560778 /* PBXTargetDependency */,
+			);
+			name = "Lightbox Transition DemoUITests";
+			productName = "Lightbox Transition DemoUITests";
+			productReference = FCA022691C8E6BEA00560778 /* Lightbox Transition DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA022421C8E6BEA00560778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Corwin Crownover";
+				TargetAttributes = {
+					FCA022491C8E6BEA00560778 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FCA0225D1C8E6BEA00560778 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCA022491C8E6BEA00560778;
+					};
+					FCA022681C8E6BEA00560778 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCA022491C8E6BEA00560778;
+					};
+				};
+			};
+			buildConfigurationList = FCA022451C8E6BEA00560778 /* Build configuration list for PBXProject "Lightbox Transition Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA022411C8E6BEA00560778;
+			productRefGroup = FCA0224B1C8E6BEA00560778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA022491C8E6BEA00560778 /* Lightbox Transition Demo */,
+				FCA0225D1C8E6BEA00560778 /* Lightbox Transition DemoTests */,
+				FCA022681C8E6BEA00560778 /* Lightbox Transition DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA022481C8E6BEA00560778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA022581C8E6BEA00560778 /* LaunchScreen.storyboard in Resources */,
+				FCA022551C8E6BEA00560778 /* Assets.xcassets in Resources */,
+				FCA022531C8E6BEA00560778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0225C1C8E6BEA00560778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA022671C8E6BEA00560778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA022461C8E6BEA00560778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA022501C8E6BEA00560778 /* ViewController.swift in Sources */,
+				FCA0224E1C8E6BEA00560778 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0225A1C8E6BEA00560778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA022631C8E6BEA00560778 /* Lightbox_Transition_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA022651C8E6BEA00560778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA0226E1C8E6BEB00560778 /* Lightbox_Transition_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA022601C8E6BEA00560778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA022491C8E6BEA00560778 /* Lightbox Transition Demo */;
+			targetProxy = FCA0225F1C8E6BEA00560778 /* PBXContainerItemProxy */;
+		};
+		FCA0226B1C8E6BEA00560778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA022491C8E6BEA00560778 /* Lightbox Transition Demo */;
+			targetProxy = FCA0226A1C8E6BEA00560778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCA022511C8E6BEA00560778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA022521C8E6BEA00560778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA022561C8E6BEA00560778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA022571C8E6BEA00560778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA022701C8E6BEB00560778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA022711C8E6BEB00560778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA022731C8E6BEB00560778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lightbox Transition Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Lightbox-Transition-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCA022741C8E6BEB00560778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lightbox Transition Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Lightbox-Transition-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCA022761C8E6BEB00560778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lightbox Transition DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Lightbox-Transition-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lightbox Transition Demo.app/Lightbox Transition Demo";
+			};
+			name = Debug;
+		};
+		FCA022771C8E6BEB00560778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lightbox Transition DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Lightbox-Transition-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lightbox Transition Demo.app/Lightbox Transition Demo";
+			};
+			name = Release;
+		};
+		FCA022791C8E6BEB00560778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lightbox Transition DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Lightbox-Transition-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lightbox Transition Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCA0227A1C8E6BEB00560778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lightbox Transition DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "C.Lightbox-Transition-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lightbox Transition Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA022451C8E6BEA00560778 /* Build configuration list for PBXProject "Lightbox Transition Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA022701C8E6BEB00560778 /* Debug */,
+				FCA022711C8E6BEB00560778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA022721C8E6BEB00560778 /* Build configuration list for PBXNativeTarget "Lightbox Transition Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA022731C8E6BEB00560778 /* Debug */,
+				FCA022741C8E6BEB00560778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCA022751C8E6BEB00560778 /* Build configuration list for PBXNativeTarget "Lightbox Transition DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA022761C8E6BEB00560778 /* Debug */,
+				FCA022771C8E6BEB00560778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCA022781C8E6BEB00560778 /* Build configuration list for PBXNativeTarget "Lightbox Transition DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA022791C8E6BEB00560778 /* Debug */,
+				FCA0227A1C8E6BEB00560778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA022421C8E6BEA00560778 /* Project object */;
+}
