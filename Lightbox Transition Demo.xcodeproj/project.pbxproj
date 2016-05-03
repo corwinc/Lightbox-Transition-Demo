@@ -14,6 +14,11 @@
 		FCA022581C8E6BEA00560778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA022561C8E6BEA00560778 /* LaunchScreen.storyboard */; };
 		FCA022631C8E6BEA00560778 /* Lightbox_Transition_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022621C8E6BEA00560778 /* Lightbox_Transition_DemoTests.swift */; };
 		FCA0226E1C8E6BEB00560778 /* Lightbox_Transition_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA0226D1C8E6BEB00560778 /* Lightbox_Transition_DemoUITests.swift */; };
+		FCA0227C1C8E6C0700560778 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA0227B1C8E6C0700560778 /* BlueViewController.swift */; };
+		FCA0227E1C8E6C0F00560778 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA0227D1C8E6C0F00560778 /* GrayViewController.swift */; };
+		FCA022801C8E78EF00560778 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA0227F1C8E78EF00560778 /* BaseTransition.swift */; };
+		FCA022821C8E78F700560778 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022811C8E78F700560778 /* FadeTransition.swift */; };
+		FCA022841C8E7B2500560778 /* LightboxTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA022831C8E7B2500560778 /* LightboxTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FCA022691C8E6BEA00560778 /* Lightbox Transition DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lightbox Transition DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA0226D1C8E6BEB00560778 /* Lightbox_Transition_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightbox_Transition_DemoUITests.swift; sourceTree = "<group>"; };
 		FCA0226F1C8E6BEB00560778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA0227B1C8E6C0700560778 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		FCA0227D1C8E6C0F00560778 /* GrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
+		FCA0227F1C8E78EF00560778 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		FCA022811C8E78F700560778 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		FCA022831C8E7B2500560778 /* LightboxTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +110,13 @@
 				FCA0224D1C8E6BEA00560778 /* AppDelegate.swift */,
 				FCA0224F1C8E6BEA00560778 /* ViewController.swift */,
 				FCA022511C8E6BEA00560778 /* Main.storyboard */,
+				FCA0227B1C8E6C0700560778 /* BlueViewController.swift */,
+				FCA0227D1C8E6C0F00560778 /* GrayViewController.swift */,
 				FCA022541C8E6BEA00560778 /* Assets.xcassets */,
 				FCA022561C8E6BEA00560778 /* LaunchScreen.storyboard */,
+				FCA0227F1C8E78EF00560778 /* BaseTransition.swift */,
+				FCA022811C8E78F700560778 /* FadeTransition.swift */,
+				FCA022831C8E7B2500560778 /* LightboxTransition.swift */,
 				FCA022591C8E6BEA00560778 /* Info.plist */,
 			);
 			path = "Lightbox Transition Demo";
@@ -257,6 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA022501C8E6BEA00560778 /* ViewController.swift in Sources */,
+				FCA022841C8E7B2500560778 /* LightboxTransition.swift in Sources */,
+				FCA022801C8E78EF00560778 /* BaseTransition.swift in Sources */,
+				FCA0227E1C8E6C0F00560778 /* GrayViewController.swift in Sources */,
+				FCA0227C1C8E6C0700560778 /* BlueViewController.swift in Sources */,
+				FCA022821C8E78F700560778 /* FadeTransition.swift in Sources */,
 				FCA0224E1C8E6BEA00560778 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
